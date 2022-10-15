@@ -64,7 +64,7 @@ while job > 3:                  #Loop repeats until user choses job
     \n\nYou may: \
     \n\n   1. Be a banker from Boston \
     \n   2. Be a carpenter from Ohio \
-    \n   3. Be a garmer from Illionois \
+    \n   3. Be a gardner from Illinois \
     \n   4. Find out the differences \
     \n      between these choices")
     job = int(input("\nWhat is your choice? "))
@@ -86,7 +86,7 @@ while job > 3:                  #Loop repeats until user choses job
         keyboard.wait('space')
     elif job > 4:               #Gives error if user inserts a non-option
         print("\n-----------------------------------\
-        \n\033[1;31m" + "Please choose one of the options." + "\033[0m")
+        \n\033[1;31m" + "Please choose one of the options" + "\033[0m")
         print("\n\033[1;32m" + "Press SPACE BAR to continue" + "\033[0m")
         keyboard.wait('space')
 
@@ -141,7 +141,7 @@ while startMonth > 5:           #User decides names of party members
         keyboard.wait('space')
     elif startMonth > 6:        #Gives error if user inserts a non-option
         print("\n-----------------------------------\
-        \n\033[1;31m" + "Please choose one of the options." + "\033[0m")
+        \n\033[1;31m" + "Please choose one of the options" + "\033[0m")
         print("\n\033[1;32m" + "Press SPACE BAR to continue" + "\033[0m")
         keyboard.wait('space')
 
