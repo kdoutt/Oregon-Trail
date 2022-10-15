@@ -139,7 +139,7 @@ while startMonth > 5:           #User decides names of party members
         \nweather will still be cool.")
         print("\n\033[1;32m" + "Press SPACE BAR to continue" + "\033[0m")
         keyboard.wait('space')
-    elif startMonth > 6:        #Gives error if user inserts a non-option
+    elif startMonth > 6:            #Gives error if user inserts a non-option
         print("\n-----------------------------------\
         \n\033[1;31m" + "Please choose one of the options" + "\033[0m")
         print("\n\033[1;32m" + "Press SPACE BAR to continue" + "\033[0m")
@@ -151,11 +151,36 @@ print(f"\n-----------------------------------\
 \nshould buy equipment and \
 \nsupplies. You have ${money:.2f} in \
 \ncash, but you don't have to \
-\nspend it all now.")
+\nspend it all now.")               #Scene setting dialogue
 print("\n\033[1;32m" + "Press SPACE BAR to continue" + "\033[0m")
 keyboard.wait('space')
+
 print("\n-----------------------------------\
 \nYou can buy whatever you need at \
-\nMatt's General Store.")
+\nMatt's General Store.")           #Scene setting dialogue
+print("\n\033[1;32m" + "Press SPACE BAR to continue" + "\033[0m")
+keyboard.wait('space')
+
+print("\n-----------------------------------\
+\nHello, I'm Matt. So you're going \
+\nto Oregon! I can fix you up with \
+\nwhat you need: \
+\n\n       - a team of oxen to pull \
+\n         your wagon \
+\n       - clothing for both \
+\n         summer and winter")      #Scene setting dialogue
+print("\n\033[1;32m" + "Press SPACE BAR to continue" + "\033[0m")
+keyboard.wait('space')
+
+print("\n-----------------------------------\
+\nHello, I'm Matt. So you're going \
+\nto Oregon! I can fix you up with \
+\nwhat you need: \
+\n\n       - plenty of food for the \
+\n         trip \
+\n       - ammunition for your \
+\n         rifles \
+\n       - spare parts for your \
+\n         wagon")                  #Scene setting dialogue
 print("\n\033[1;32m" + "Press SPACE BAR to continue" + "\033[0m")
 keyboard.wait('space')
